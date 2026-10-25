@@ -1,0 +1,25 @@
+{
+  "CFG": {
+    "API_TOKEN": "Personal API Token",
+    "API_TOKEN_HELP": "How to get a personal API token",
+    "BOARD": "Board",
+    "BOARD_DESC": "Enter your API token first, then pick a board (use Test Connection if the list is empty).",
+    "ASSIGNED_TO_ME": "Only items assigned to me",
+    "PEOPLE_COLUMN_ID": "People column ID (default: person)",
+    "FILTER_USERNAME": "Filter username (ignore own updates for change detection)"
+  },
+  "DISPLAY": {
+    "SUMMARY": "Summary",
+    "STATUS": "Status",
+    "GROUP": "Group",
+    "ASSIGNEE": "Assignee",
+    "LABELS": "Labels"
+  },
+  "ERRORS": {
+    "BOARD_REQUIRED": "monday.com: Select a board in the issue provider settings.",
+    "TOKEN_REQUIRED": "monday.com: A personal API token is required. Add one in the issue provider settings.",
+    "ITEM_NOT_FOUND": "monday.com: Item not found.",
+    "ERR_UNKNOWN": "monday.com: Unknown error. Check your token and board, then try again."
+  },
+  "FORM_HELP": "<p>Connect a monday.com board so its items appear as suggestions when creating tasks. You can search by name, auto-import items, and sync title, notes (item description), and done state.</p><p>Create a personal API token from your monday.com profile picture → <strong>Developers</strong> → <strong>API token</strong>.</p>"
+}

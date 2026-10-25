@@ -1,0 +1,26 @@
+{
+  "id": "monday-issue-provider",
+  "name": "monday.com",
+  "version": "1.0.0",
+  "manifestVersion": 1,
+  "minSupVersion": "13.0.0",
+  "description": "Connects monday.com board items to Super Productivity",
+  "author": "Zoriot",
+  "type": "issueProvider",
+  "icon": "icon.svg",
+  "iFrame": false,
+  "permissions": ["http"],
+  "hooks": [],
+  "i18n": {
+    "languages": ["en"]
+  },
+  "issueProvider": {
+    "pollIntervalMs": 600000,
+    "icon": "sp",
+    "humanReadableName": "monday.com",
+    "issueStrings": {
+      "singular": "Item",
+      "plural": "Items"
+    }
+  }
+}
